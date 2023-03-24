@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
             </li>
             <li>
               <Link
-                  href="/"
+                  href="/posts"
                   className="text-sm font-medium uppercase"
               >
               Posts
