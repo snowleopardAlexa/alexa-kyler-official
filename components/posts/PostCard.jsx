@@ -4,6 +4,8 @@ import DateComponent from '../ui/DateComponent'
 import ContentfulImage from '../ui/ContentfulImage'
 
 const PostCard = ({ post }) => {
+  const { title, slug, excerpt, coverImage, author, date } = post.fields
+
   return (
     <li className='rounded-m overflow-hidden shadow-md'>
      <Link href={`/posts/${slug}`} aria-label={title}>
