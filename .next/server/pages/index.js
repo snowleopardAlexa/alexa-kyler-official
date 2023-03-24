@@ -22,6 +22,17 @@ eval("// Exports\nmodule.exports = {\n\n};\n//# sourceURL=[module]\n//# sourceMa
 
 /***/ }),
 
+/***/ "./lib/contentful/client.js":
+/*!**********************************!*\
+  !*** ./lib/contentful/client.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"client\": () => (/* binding */ client)\n/* harmony export */ });\n// connect a client contentful to next.js app\nconst contentful = __webpack_require__(/*! contentful */ \"contentful\");\nconst client = contentful.createClient({\n    space: process.env.CONTENTFUL_SPACE_ID,\n    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN\n});\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9saWIvY29udGVudGZ1bC9jbGllbnQuanMuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLDZDQUE2QztBQUU3QyxNQUFNQSxhQUFhQyxtQkFBT0EsQ0FBQztBQUVwQixNQUFNQyxTQUFTRixXQUFXRyxZQUFZLENBQUM7SUFDNUNDLE9BQU9DLFFBQVFDLEdBQUcsQ0FBQ0MsbUJBQW1CO0lBQ3RDQyxhQUFhSCxRQUFRQyxHQUFHLENBQUNHLHVCQUF1QjtBQUNsRCxHQUFFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYWxleGEta3lsZXItb2ZmaWNpYWwvLi9saWIvY29udGVudGZ1bC9jbGllbnQuanM/ODVjMiJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBjb25uZWN0IGEgY2xpZW50IGNvbnRlbnRmdWwgdG8gbmV4dC5qcyBhcHBcblxuY29uc3QgY29udGVudGZ1bCA9IHJlcXVpcmUoJ2NvbnRlbnRmdWwnKVxuXG5leHBvcnQgY29uc3QgY2xpZW50ID0gY29udGVudGZ1bC5jcmVhdGVDbGllbnQoe1xuICBzcGFjZTogcHJvY2Vzcy5lbnYuQ09OVEVOVEZVTF9TUEFDRV9JRCxcbiAgYWNjZXNzVG9rZW46IHByb2Nlc3MuZW52LkNPTlRFTlRGVUxfQUNDRVNTX1RPS0VOXG59KSJdLCJuYW1lcyI6WyJjb250ZW50ZnVsIiwicmVxdWlyZSIsImNsaWVudCIsImNyZWF0ZUNsaWVudCIsInNwYWNlIiwicHJvY2VzcyIsImVudiIsIkNPTlRFTlRGVUxfU1BBQ0VfSUQiLCJhY2Nlc3NUb2tlbiIsIkNPTlRFTlRGVUxfQUNDRVNTX1RPS0VOIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./lib/contentful/client.js\n");
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -40,7 +51,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Posts = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: \"Posts\"\n    }, void 0, false, {\n        fileName: \"/Users/alexaslomski/Desktop/REACT/alexa-kyler-official/pages/posts/index.jsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Posts);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9wb3N0cy9pbmRleC5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXlCO0FBRXpCLE1BQU1DLFFBQVEsSUFBTTtJQUNsQixxQkFDRSw4REFBQ0M7a0JBQUk7Ozs7OztBQUVUO0FBRUEsaUVBQWVELEtBQUtBLEVBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9hbGV4YS1reWxlci1vZmZpY2lhbC8uL3BhZ2VzL3Bvc3RzL2luZGV4LmpzeD9hMTVkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuY29uc3QgUG9zdHMgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5Qb3N0czwvZGl2PlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IFBvc3RzIl0sIm5hbWVzIjpbIlJlYWN0IiwiUG9zdHMiLCJkaXYiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/posts/index.jsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _lib_contentful_client__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/lib/contentful/client */ \"./lib/contentful/client.js\");\n\n\n\nconst Posts = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: \"Posts\"\n    }, void 0, false, {\n        fileName: \"/Users/alexaslomski/Desktop/REACT/alexa-kyler-official/pages/posts/index.jsx\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Posts);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9wb3N0cy9pbmRleC5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUF5QjtBQUN1QjtBQUVoRCxNQUFNRSxRQUFRLElBQU07SUFDbEIscUJBQ0UsOERBQUNDO2tCQUFJOzs7Ozs7QUFFVDtBQUVBLGlFQUFlRCxLQUFLQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYWxleGEta3lsZXItb2ZmaWNpYWwvLi9wYWdlcy9wb3N0cy9pbmRleC5qc3g/YTE1ZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgeyBjbGllbnQgfSBmcm9tICdAL2xpYi9jb250ZW50ZnVsL2NsaWVudCdcblxuY29uc3QgUG9zdHMgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5Qb3N0czwvZGl2PlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IFBvc3RzIl0sIm5hbWVzIjpbIlJlYWN0IiwiY2xpZW50IiwiUG9zdHMiLCJkaXYiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/posts/index.jsx\n");
+
+/***/ }),
+
+/***/ "contentful":
+/*!*****************************!*\
+  !*** external "contentful" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("contentful");
 
 /***/ }),
 
