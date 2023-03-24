@@ -1,6 +1,7 @@
 import Head from 'next/head'
 //import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import Posts from './posts';
 
 const Homepage = () => {
   return (
@@ -13,6 +14,8 @@ const Homepage = () => {
       </Head>
       <main className={styles.main}>
          <h1 className="text-3xl font-bold">Home page</h1>
+
+         <Posts />
       </main>
     </>
   )
