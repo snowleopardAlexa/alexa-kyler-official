@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { FaLinkedin } from 'react-icons/fa'
-import workpic from 'styles/img/kion.png'
+import workpic from 'styles/img/alexa.jpg'
 
 const About = () => {
   return (
