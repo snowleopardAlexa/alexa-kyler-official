@@ -5,6 +5,7 @@ import Posts from './posts';
 import Hero from '@/components/ui/Hero';
 import Services from '@/components/ui/Services';
 import Work from '@/components/ui/Work';
+import About from '@/components/ui/About';
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
          <Hero />
          <Services />
          <Work />
+         <About />
          <Posts />
       </main>
     </>
