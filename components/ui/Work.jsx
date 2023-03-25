@@ -6,14 +6,6 @@ import workpic from 'styles/img/kion.png'
 const Work = () => {
   return (
   <div class="max-w-sm w-full lg:max-w-full lg:flex">
-  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
-  <Image
-      src={workpic}
-      alt="Picture of my work"
-      width={500}
-      height={500}
-    />
-  </div>
   <div class="">
     <div class="mb-8">
     <div class=" text-stone-200 font-bold text-4xl mb-2">CHECK OUT MY WORK</div>
@@ -30,6 +22,14 @@ const Work = () => {
         </div>
        </div>
     </div>
+  </div>
+  <div class="">
+  <Image
+      src={workpic}
+      alt="Picture of my work"
+      width={500}
+      height={500}
+    />
   </div>
 </div>
   )
