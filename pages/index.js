@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Posts from './posts';
 import Hero from '@/components/ui/Hero';
 import Services from '@/components/ui/Services';
+import Work from '@/components/ui/Work';
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <main className={styles.main}>
          <Hero />
          <Services />
+         <Work />
          <Posts />
       </main>
     </>
