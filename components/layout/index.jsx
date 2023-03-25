@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
                  href="/"
                  className="text-md text-zinc-300"
               >
-              ALEXA KYLER
+              ALE<span class="text-md text-orange-500 font-bold">X</span>A K<span class="text-md text-orange-500 font-bold">Y</span>LER
               </Link>
             </li>  
             <li>
@@ -64,10 +64,10 @@ const Layout = ({ children }) => {
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="" class="flex items-center">
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ALE<span class="text-2xl text-orange-700">X</span>A K<span class="text-2xl text-orange-700">Y</span>LER</span>
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ALE<span class="text-2xl text-orange-500 font-bold">X</span>A K<span class="text-2xl text-orange-500 font-bold">Y</span>LER</span>
               </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="flex justify-center gap-12">
               <div>
                   <h2 class="mt-12 text-sm dark:text-white">UX / UI Portfolio</h2>
               </div>
@@ -85,13 +85,13 @@ const Layout = ({ children }) => {
 </div>
 
 <div class="w-screen bg-orange-600 flex space-x-12 sm:justify-center sm:mt-8 sm:mb-8">
-              <a href="#" class="text-stone-200 mt-4 mb-4">
+              <a href="#" class="text-stone-200 mt-4 mb-4 dark:hover:text-white">
                  <FaLinkedin size={40} />
               </a>
               <a href="#" class="text-stone-200 mt-4 mb-4 dark:hover:text-white">
                  <FaBehanceSquare size={40} />
               </a>
-              <a href="#" class="text-stone-200 mt-4 mb-4">
+              <a href="#" class="text-stone-200 mt-4 mb-4 dark:hover:text-white">
                  <FaGithubSquare size={40} />
               </a>
               <a href="#" class="text-stone-200 mt-4 mb-4 dark:hover:text-white">
