@@ -2,6 +2,8 @@ import Head from 'next/head'
 //import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Posts from './posts';
+import Hero from '@/components/ui/Hero';
+import Services from '@/components/ui/Services';
 
 const Homepage = () => {
   return (
@@ -13,8 +15,8 @@ const Homepage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-         <h1 className="text-3xl font-bold">Home page</h1>
-
+         <Hero />
+         <Services />
          <Posts />
       </main>
     </>
